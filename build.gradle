@@ -16,7 +16,11 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
+	// 웹 서버 구동 라이브러리 추가
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	// spring-boot-devtools
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 }
 
 tasks.named('test') {
